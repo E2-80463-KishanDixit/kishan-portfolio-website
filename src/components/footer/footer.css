@@ -60,9 +60,6 @@ footer a {
 
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
-    footer{
-        margin-left: 6rem;
-    }
     .permalinks{
         flex-direction: column;
         gap: 1.5rem;
