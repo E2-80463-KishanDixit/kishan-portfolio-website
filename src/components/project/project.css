@@ -38,12 +38,15 @@
 
 @media screen and (max-width:1024px) {
     .porject_container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.8fr 0.8fr;
         gap: 1.2rem;
     }
 }
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
+    #project{
+        width: var(--container-width-outer);
+    }
     .porject_container{
         grid-template-columns: 1fr;
         gap: 1rem;

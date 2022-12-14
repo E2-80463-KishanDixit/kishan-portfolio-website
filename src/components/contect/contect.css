@@ -67,7 +67,8 @@ input, textarea{
 
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
-    .container.contect_container{
-        width: var(--container-width-sm);
+    #contect{
+        width: var(--container-width-outer);
     }
+
 }

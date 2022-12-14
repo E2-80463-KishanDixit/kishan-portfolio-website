@@ -50,23 +50,7 @@
     font-size: 0.9rem;
 }
 
-/******************Media Queries (Media Devices) ******************************/
 
-@media screen and (max-width:1024px) {
-    .experience_container{
-        grid-template-columns: 1fr;
-    }
-
-    .experience_container > div{
-        width: 80%;
-        padding: 2rem;
-        margin-top: 0 auto;
-    }
-
-    .experience_content{
-        padding: 1rem;
-    }
-}
 
 /******************Media Queries (Media Devices) ******************************/
 
@@ -82,6 +66,9 @@
 }
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
+    #services{
+        width: var(--container-width-outer);
+    }
     .services_container{
         grid-template-columns: 1fr;
         gap: 1.5rem;

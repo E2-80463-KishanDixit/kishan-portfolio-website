@@ -54,19 +54,23 @@ position: relative;
 
 /******************Media Queries (Media Devices) ******************************/
 
-/* @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
     header{
         height: 140vh;
     }
-} */
+}
 
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
     header{
         height: fit-content;
+        width: var(--container-width-outer);
     }
 
      .header_socials,.scrolll_down{
         display: none;
     }
+
+    
 }
+

@@ -42,12 +42,12 @@ const About = () => {
                     </article>
                     </a>
                 </div>
-                <p>
-                       "Hello!!! Here is my projects links. I also added summary about my project and 
-                       I also mentioned technologies used in that project."
-                    </p>
 
-                    <a href = '#contect' className='btn btn-primary'>Let's Talk</a>
+                <p>
+                    "Hello!!! Here is my projects links. I also added summary about my project and 
+                    I also mentioned technologies used in that project."
+                </p>
+                <a href = '#contect' className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>
     </section>

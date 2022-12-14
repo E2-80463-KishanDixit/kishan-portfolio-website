@@ -76,7 +76,8 @@
     margin: 2rem 0 2.6rem;
     text-align: center;
     height: 3rem;
-    width: 20rem;
+    width: 35rem;
+    font-size: 1rem;
 }
 
 /******************Media Queries (Media Devices) ******************************/
@@ -99,12 +100,15 @@
 
 /******************Media Queries (Small Devices) ******************************/
 @media screen and (max-width:600px) {
+    #about{
+        width: var(--container-width-outer);
+    }
     .about_me{
         width: 65%;
         margin: 0 auto 3rem;
     }
     .about_cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         gap: 1rem;
     }
 
@@ -113,7 +117,14 @@
     }
 
     .about_content p{
-        /* margin: 1.5rem 0;  change*/
-        margin: 1.5rem auto;
+        /* margin: 1.5rem 0;  ----change  */
+        margin: 1.5rem auto; 
+    }
+}
+
+@media screen and (max-width:375px) {
+    .about_cards {
+        grid-template-columns: 0.8fr ;
+        justify-content: space-around;
     }
 }

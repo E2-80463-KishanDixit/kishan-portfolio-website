@@ -21,7 +21,8 @@
 
     --container-width-lg:75%;
     --container-width-md:86%;
-    --container-width-sm:90%;
+    --container-width-sm:90%;  
+    --container-width-outer:110vh;
 }
 html{
     scroll-behavior: smooth;
@@ -127,3 +128,4 @@ img{
         margin-top: rem;
     }
 }
+
