@@ -1,6 +1,6 @@
 {
-  "name": "kishan-portfolio-website",
   "homepage": "https://Kishandixit.github.io/kishan-portfolio-website",
+  "name": "kishan-portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
