@@ -69,6 +69,7 @@ input, textarea{
 @media screen and (max-width:600px) {
     #contect{
         width: var(--container-width-outer);
+        height: 0;
     }
 
 }
