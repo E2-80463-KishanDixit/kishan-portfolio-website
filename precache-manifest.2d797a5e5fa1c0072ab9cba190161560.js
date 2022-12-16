@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "546a24e483cdf80b4315",
-    "url": "/kishan-portfolio-website/static/css/main.8759da46.chunk.css"
+    "revision": "52ecda91718241e5ce45",
+    "url": "/kishan-portfolio-website/static/css/main.872fa529.chunk.css"
   },
   {
-    "revision": "546a24e483cdf80b4315",
-    "url": "/kishan-portfolio-website/static/js/main.546a24e4.chunk.js"
+    "revision": "52ecda91718241e5ce45",
+    "url": "/kishan-portfolio-website/static/js/main.52ecda91.chunk.js"
   },
   {
     "revision": "d38164de74c419fde16c",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/kishan-portfolio-website/static/media/acheive14.87348675.jpg"
   },
   {
-    "revision": "b73335511e215a46c4aa8906fb23d16d",
+    "revision": "b9d755806ce98aa65d17d60009cc54f4",
     "url": "/kishan-portfolio-website/index.html"
   }
 ];

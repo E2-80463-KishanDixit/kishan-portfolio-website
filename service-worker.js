@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kishan-portfolio-website/precache-manifest.0dcd575c96dd8b7f0342277cb92153b4.js"
+  "/kishan-portfolio-website/precache-manifest.2d797a5e5fa1c0072ab9cba190161560.js"
 );
 
 workbox.clientsClaim();
