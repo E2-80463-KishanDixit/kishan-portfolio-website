@@ -24,13 +24,13 @@ const Footer = () => {
         </ul>
 
         <div className='footer_socials'>
-          <a href='https://www.linkedin.com/in/kishan-dixit'><FaLinkedin/></a>
-          <a href='https://github.com/Kishandixit'><BsGithub/></a>
-          <a href='https://discord.gg/29Yxw7auSV'><SiDiscord/></a>
-          <a href='https://twitter.com/KishanD66054147?s=08'><TbBrandTelegram/></a>
-          <a href='https://www.youtube.com/channel/UCqdeiHrHWA4Eti-rbUL7XOw/featured'><BsYoutube/></a>
-          <a href='https://www.facebook.com/kishan.dixit.9440'><FaFacebookF/></a>
-          <a href='https://instagram.com/kishan__dixit?utm_medium=copy_link'><FaInstagram/></a>
+          <a href='https://www.linkedin.com/in/kishan-dixit' target="_blank"><FaLinkedin/></a>
+          <a href='https://github.com/Kishandixit' target="_blank"><BsGithub/></a>
+          <a href='https://discord.gg/29Yxw7auSV' target="_blank"><SiDiscord/></a>
+          <a href='https://t.me/joinchat/w4MNkMvPFjtjN2Jl' target="_blank" ><TbBrandTelegram/></a>
+          <a href='https://www.youtube.com/@TechTalk_With_Kishan' target="_blank" ><BsYoutube/></a>
+          <a href='https://www.facebook.com/profile.php?id=100089640609198' target="_blank"><FaFacebookF/></a>
+          <a href='https://www.instagram.com/invites/contact/?i=3vrvnob5gzrp&utm_content=kdx41on' target="_blank"><FaInstagram/></a>
           <a href='https://twitter.com/KishanD66054147?s=08'><FaTwitterSquare/></a>
         </div>
 

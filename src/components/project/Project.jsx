@@ -13,12 +13,12 @@ const Project = () => {
         return(
           <article key={id}  className='project_item'>
           <div className="project_item-img">
-            <img src={image} alt="Project Image"/>
+            <img src={image} />    
           </div>
           <h3>{title}</h3>
           <div className='project_item-cta'>
             <a href={github} className='btn' target='_blank'>Github</a>
-            <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
           </div>
         </article>
         )
@@ -29,3 +29,8 @@ const Project = () => {
 }
 
 export default Project
+
+
+
+// alt="Project Image"
+//rel="noopener noreferrer"
